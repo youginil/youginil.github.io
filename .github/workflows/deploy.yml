@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: pnpm setup
         uses: pnpm/action-setup@v2
@@ -37,8 +37,6 @@ jobs:
       url: ${{steps.deployment.outputs.page_url}}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload Artifact
