@@ -1,0 +1,26 @@
+{
+    "name": "youginil",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build && node scripts/docs.mjs",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@solidjs/router": "^0.13.1",
+        "bootstrap-icons": "^1.11.3",
+        "solid-js": "^1.8.16",
+        "theme-change": "^2.5.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "daisyui": "^4.7.3",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5.4.3",
+        "vite": "^5.2.2",
+        "vite-plugin-solid": "^2.10.2"
+    }
+}
