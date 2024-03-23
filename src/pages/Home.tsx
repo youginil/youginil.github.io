@@ -7,13 +7,13 @@ const products = [
         name: "Dolphin",
         desc: "An efficient memorization app",
         icon: "dolphin.png",
-        href: "",
+        href: "https://i9ver4get.github.io/",
     },
     {
         name: "Dauphin",
         desc: "Memory card editor for Dolphin",
         icon: "dauphin.png",
-        href: "",
+        href: "https://i9ver4get.github.io/",
     },
     {
         name: "Beluga",

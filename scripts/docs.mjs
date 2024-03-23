@@ -13,9 +13,9 @@ const books = fs.readdirSync(SRC_DIR);
 
 function buildBook(name) {
     console.log("Build", name);
-    process.chdir(path.resolve(SRC_DIR, name));
     const result = spawnSync("mdbook", [
         "build",
+        path.resolve(SRC_DIR, name),
         "-d",
         path.resolve(DST_DIR, name),
     ]);
