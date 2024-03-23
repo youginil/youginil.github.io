@@ -7,19 +7,19 @@ const products = [
         name: "Dolphin",
         desc: "An efficient memorization app",
         icon: "dolphin.png",
-        href: "https://i9ver4get.github.io/",
+        link: "https://i9ver4get.github.io/",
     },
     {
         name: "Dauphin",
         desc: "Memory card editor for Dolphin",
         icon: "dauphin.png",
-        href: "https://i9ver4get.github.io/",
+        link: "https://i9ver4get.github.io/",
     },
     {
         name: "Beluga",
         desc: "Offline dictionary",
         icon: "beluga.png",
-        href: "",
+        link: "",
     },
 ];
 
@@ -53,7 +53,7 @@ const Home: Component = () => {
                     {(item) => (
                         <a
                             class="card w-full bg-base-200 shadow-lg transition-all hover:shadow-2xl"
-                            href=""
+                            href={item.link}
                             target="_blank"
                         >
                             <figure class="px-10 pt-10">
