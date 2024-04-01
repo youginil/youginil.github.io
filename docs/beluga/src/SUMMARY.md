@@ -1,3 +1,5 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+[Home](./home.md)
+[Specification](./spec.md)
+[Manufacture](./manufacture.md)
