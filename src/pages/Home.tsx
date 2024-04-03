@@ -19,7 +19,7 @@ const products = [
         name: "Beluga",
         desc: "Offline dictionary",
         icon: "beluga.png",
-        link: "",
+        link: "https://youginil.github.io/beluga-project/",
     },
 ];
 
